@@ -1,6 +1,0 @@
-{
-    "accessToken": "accessToken123456789",
-    "userEmail": "kansalmohit19@gmail.com",
-    "firstName": "Mohit",
-    "lastName": "Kansal"
-}
