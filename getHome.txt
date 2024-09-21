@@ -1,0 +1,402 @@
+{
+  "message": "Logged in successfully.",
+  "status": 200,
+  "data": {
+    "sections": [
+      {
+        "type": 0,
+        "sectionData": [
+          {
+            "icon": "https://www.svgrepo.com/show/422275/clothes-clothing-garment.svg",
+            "text": "Clothes"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/502436/food-and-drink.svg",
+            "text": "Food"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/400442/lipstick.svg",
+            "text": "Cosmetic"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/227505/market-supermarket.svg",
+            "text": "Market"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/425171/sport-automotive-helmet.svg",
+            "text": "Sport"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/494436/news-news-release-to-promote.svg",
+            "text": "News"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/530179/stock-movement.svg",
+            "text": "Stock Market"
+          },
+          {
+            "icon": "https://www.svgrepo.com/show/343840/social-media-branding-advertising-promotion.svg",
+            "text": "Social Meda"
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "sectionData": [
+          {
+            "image": "https://img.freepik.com/free-psd/sales-discount-facebook-template_23-2149959351.jpg?w=2000&t=st=1691265826~exp=1691266426~hmac=f6e155cc1969aea6effca77ee77dd25e4876212705a9720199db4eee01ad417f",
+            "navigationData": "101"
+          },
+          {
+            "image": "https://images.unsplash.com/photo-1627384113972-f4c0392fe5aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+            "navigationData": "102"
+          },
+          {
+            "image": "https://img.freepik.com/free-psd/banner-template-mega-sale_23-2148729530.jpg?w=1380&t=st=1691412680~exp=1691413280~hmac=824b2c6664161658b590bc5f48cbb51dcc59707bc6a7a58386846a0930cbcb8d",
+            "navigationData": "104"
+          },
+          {
+            "image": "https://images.unsplash.com/photo-1616781677825-3c8cfc2f79a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+            "navigationData": "103"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "sectionTitle": "Slidable Products",
+        "sectionData": [
+          {
+            "productId": "1000",
+            "productImage": "https://m.media-amazon.com/images/I/71fiO3YqQwL._AC_SY695_.jpg",
+            "text": "Shoe",
+            "subText": "1200.40 ₺",
+            "review": "230 Comments",
+            "questions": "13 Answer",
+            "rating": "9.6",
+            "share": "Shoe Link"
+          },
+          {
+            "productId": "1003",
+            "productImage": "https://m.media-amazon.com/images/I/61bEwLtAx0L._AC_SL1000_.jpg",
+            "text": "Watch",
+            "subText": "73.20 ₺"
+          },
+          {
+            "productId": "1002",
+            "productImage": "https://m.media-amazon.com/images/I/61GuSZ+C3kL._AC_UF894,1000_QL80_.jpg",
+            "text": "Phone 8 X.E",
+            "subText": "1467.90 ₺"
+          },
+          {
+            "productId": "1001",
+            "productImage": "https://m.media-amazon.com/images/I/618cxEwcaEL._AC_SX679_.jpg",
+            "text": "Shirt",
+            "subText": "99.90 ₺"
+          },
+          {
+            "productId": "1005",
+            "productImage": "https://m.media-amazon.com/images/I/51VOI6vjw2L._AC_SX679_.jpg",
+            "text": "Bluetooth Mouse",
+            "subText": "930.60 ₺"
+          },
+          {
+            "productId": "1004",
+            "productImage": "https://tecknet.com/cdn/shop/files/Bluetooth-Headset_grande.jpg?v=1685792484",
+            "text": "Headphone Bluetooth",
+            "subText": "9730.60 ₺"
+          },
+          {
+            "productId": "1006",
+            "productImage": "https://m.media-amazon.com/images/I/71wKdxyeDUL._AC_SL1500_.jpg",
+            "text": "Controller",
+            "subText": "2330.00 ₺"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "sectionTitle": "FlexBox Products",
+        "sectionData": [
+          {
+            "productId": "1000",
+            "productImage": "https://m.media-amazon.com/images/I/61cSDZpf36L._AC_SY625_.jpg",
+            "text": "Sandals",
+            "subText": "304.45 ₺",
+            "review": "230 Comments",
+            "questions": "13 Answer",
+            "rating": "9.6",
+            "share": "Yazlık Sandalet Link"
+          },
+          {
+            "productId": "1006",
+            "productImage": "https://m.media-amazon.com/images/I/61mvgeTZMvL._AC_SL1500_.jpg",
+            "text": "Toy",
+            "subText": "19.00 ₺"
+          },
+          {
+            "productId": "1009",
+            "productImage": "https://m.media-amazon.com/images/I/51i5DaalypL._AC_SL1000_.jpg",
+            "text": "Box",
+            "subText": "99.9 ₺"
+          },
+          {
+            "productId": "1010",
+            "productImage": "https://m.media-amazon.com/images/I/41v2o4UTwjL._AC_SL1009_.jpg",
+            "text": "Pen",
+            "subText": "9.20 ₺"
+          },
+          {
+            "productId": "1008",
+            "productImage": "https://m.media-amazon.com/images/I/416hJHFaGML._AC_.jpg",
+            "text": "Bag",
+            "subText": "9.30 ₺"
+          },
+          {
+            "productId": "1003",
+            "productImage": "https://m.media-amazon.com/images/I/51VB+CisjDS._AC_SL1003_.jpg",
+            "text": "Bunch",
+            "subText": "33.20 ₺"
+          },
+          {
+            "productId": "1007",
+            "productImage": "https://m.media-amazon.com/images/I/81vUb4A7hWL._AC_SL1500_.jpg",
+            "text": "Cat Food",
+            "subText": "30.60 ₺"
+          },
+          {
+            "productId": "1005",
+            "productImage": "https://m.media-amazon.com/images/I/51VOI6vjw2L._AC_SX679_.jpg",
+            "text": "Bluetooth Mouse",
+            "subText": "973.60 ₺",
+            "piece": "only 2 in stock"
+          },
+          {
+            "productId": "1002",
+            "productImage": "https://m.media-amazon.com/images/I/61GuSZ+C3kL._AC_UF894,1000_QL80_.jpg",
+            "text": "Phone 8 X.E",
+            "subText": "14679.90 ₺",
+            "soldOutText": "Sold Out"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "sectionTitle": "Slidable Products",
+        "sectionData": [
+          {
+            "productId": "1006",
+            "productImage": "https://m.media-amazon.com/images/I/71wKdxyeDUL._AC_SL1500_.jpg",
+            "text": "Controller",
+            "subText": "2330.00 ₺"
+          },
+          {
+            "productId": "1002",
+            "productImage": "https://m.media-amazon.com/images/I/61GuSZ+C3kL._AC_UF894,1000_QL80_.jpg",
+            "text": "Phone 8 X.E",
+            "subText": "14679.90 ₺"
+          },
+          {
+            "productId": "1003",
+            "productImage": "https://m.media-amazon.com/images/I/61bEwLtAx0L._AC_SL1000_.jpg",
+            "text": "Watch",
+            "subText": "73.20 ₺"
+          },
+          {
+            "productId": "1001",
+            "productImage": "https://m.media-amazon.com/images/I/618cxEwcaEL._AC_SX679_.jpg",
+            "text": "Shirt",
+            "subText": "99.90 ₺"
+          },
+          {
+            "productId": "1005",
+            "productImage": "https://m.media-amazon.com/images/I/51VOI6vjw2L._AC_SX679_.jpg",
+            "text": "Bluetooth Mouse",
+            "subText": "9730.60 ₺"
+          },
+          {
+            "productId": "1000",
+            "productImage": "https://m.media-amazon.com/images/I/71fiO3YqQwL._AC_SY695_.jpg",
+            "text": "Shoe",
+            "subText": "1200.40 ₺",
+            "review": "230 Comments",
+            "questions": "13 Answer",
+            "rating": "9.6",
+            "share": "Shoe Link"
+          },
+          {
+            "productId": "1004",
+            "productImage": "https://tecknet.com/cdn/shop/files/Bluetooth-Headset_grande.jpg?v=1685792484",
+            "text": "Headphone Bluetooth",
+            "subText": "9730.60 ₺"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "sectionTitle": "Vertical Products",
+        "sectionData": [
+          {
+            "productId": "1000",
+            "productImage": "https://www.ollieandnic.com/cdn/shop/products/Macey-Sandals-Cream-2.jpg?v=1646840147&width=720",
+            "text": "Summer Sandals",
+            "subText": "304.45",
+            "review": "230 Comments",
+            "questions": "13 Answer",
+            "rating": "9.6",
+            "share": "Yazlık Sandalet Link"
+          },
+          {
+            "productId": "1001",
+            "productImage": "https://www.highsnobiety.com/static-assets/thumbor/f-gb_L-XdouCgjFtLd7B_d6jops=/1500x1000/whatdropsnow.s3.amazonaws.com/product_image/195752/shrine_image/886ce62a990da3a3944e062b42d47e95.jpg",
+            "text": "Men's Knitwear Shirt",
+            "subText": "99.90"
+          },
+          {
+            "productId": "1002",
+            "productImage": "https://m.media-amazon.com/images/I/61GuSZ+C3kL._AC_UF894,1000_QL80_.jpg",
+            "text": "Phone 8 X.E",
+            "subText": "14679.90"
+          },
+          {
+            "productId": "1003",
+            "productImage": "https://tecknet.com/cdn/shop/files/Bluetooth-Headset_grande.jpg?v=1685792484",
+            "text": "Daisy Bunch",
+            "subText": "73.20 ₺"
+          },
+          {
+            "productId": "1005",
+            "productImage": "https://m.media-amazon.com/images/I/51VOI6vjw2L._AC_SX679_.jpg",
+            "text": "Bluetooth Mouse",
+            "subText": "9730.60"
+          },
+          {
+            "productId": "1004",
+            "productImage": "https://tecknet.com/cdn/shop/files/Bluetooth-Headset_grande.jpg?v=1685792484",
+            "text": "Headphone Bluetooth",
+            "subText": "9730.60"
+          },
+          {
+            "productId": "1003",
+            "productImage": "https://tecknet.com/cdn/shop/files/Bluetooth-Headset_grande.jpg?v=1685792484",
+            "text": "Daisy Bunch",
+            "subText": "73.20"
+          },
+          {
+            "productId": "1005",
+            "productImage": "https://m.media-amazon.com/images/I/51VOI6vjw2L._AC_SX679_.jpg",
+            "text": "Bluetooth Mouse",
+            "subText": "9730.60"
+          },
+          {
+            "productId": "1004",
+            "productImage": "https://tecknet.com/cdn/shop/files/Bluetooth-Headset_grande.jpg?v=1685792484",
+            "text": "Headphone Bluetooth",
+            "subText": "9730.60"
+          },
+          {
+            "productId": "1001",
+            "productImage": "https://www.highsnobiety.com/static-assets/thumbor/f-gb_L-XdouCgjFtLd7B_d6jops=/1500x1000/whatdropsnow.s3.amazonaws.com/product_image/195752/shrine_image/886ce62a990da3a3944e062b42d47e95.jpg",
+            "text": "Men's Knitwear Shirt",
+            "subText": "99.90"
+          },
+          {
+            "productId": "1002",
+            "productImage": "https://m.media-amazon.com/images/I/61GuSZ+C3kL._AC_UF894,1000_QL80_.jpg",
+            "text": "Phone 8 X.E",
+            "subText": "14679.90"
+          },
+          {
+            "productId": "1003",
+            "productImage": "https://tecknet.com/cdn/shop/files/Bluetooth-Headset_grande.jpg?v=1685792484",
+            "text": "Daisy Bunch",
+            "subText": "73.20"
+          },
+          {
+            "productId": "1005",
+            "productImage": "https://m.media-amazon.com/images/I/51VOI6vjw2L._AC_SX679_.jpg",
+            "text": "Bluetooth Mouse",
+            "subText": "9730.60"
+          },
+          {
+            "productId": "1004",
+            "productImage": "https://tecknet.com/cdn/shop/files/Bluetooth-Headset_grande.jpg?v=1685792484",
+            "text": "Headphone Bluetooth",
+            "subText": "9730.60"
+          },
+          {
+            "productId": "1003",
+            "productImage": "https://tecknet.com/cdn/shop/files/Bluetooth-Headset_grande.jpg?v=1685792484",
+            "text": "Daisy Bunch",
+            "subText": "73.20"
+          },
+          {
+            "productId": "1005",
+            "productImage": "https://m.media-amazon.com/images/I/51VOI6vjw2L._AC_SX679_.jpg",
+            "text": "Bluetooth Mouse",
+            "subText": "9730.60"
+          },
+          {
+            "productId": "1004",
+            "productImage": "https://tecknet.com/cdn/shop/files/Bluetooth-Headset_grande.jpg?v=1685792484",
+            "text": "Headphone Bluetooth",
+            "subText": "9730.60"
+          },
+          {
+            "productId": "1003",
+            "productImage": "https://tecknet.com/cdn/shop/files/Bluetooth-Headset_grande.jpg?v=1685792484",
+            "text": "Daisy Bunch",
+            "subText": "73.20"
+          },
+          {
+            "productId": "1005",
+            "productImage": "https://m.media-amazon.com/images/I/51VOI6vjw2L._AC_SX679_.jpg",
+            "text": "Bluetooth Mouse",
+            "subText": "9730.60"
+          },
+          {
+            "productId": "1004",
+            "productImage": "https://tecknet.com/cdn/shop/files/Bluetooth-Headset_grande.jpg?v=1685792484",
+            "text": "Headphone Bluetooth",
+            "subText": "9730.60"
+          },
+          {
+            "productId": "1003",
+            "productImage": "https://tecknet.com/cdn/shop/files/Bluetooth-Headset_grande.jpg?v=1685792484",
+            "text": "Daisy Bunch",
+            "subText": "73.20"
+          },
+          {
+            "productId": "1005",
+            "productImage": "https://m.media-amazon.com/images/I/51VOI6vjw2L._AC_SX679_.jpg",
+            "text": "Bluetooth Mouse",
+            "subText": "9730.60"
+          },
+          {
+            "productId": "1003",
+            "productImage": "https://tecknet.com/cdn/shop/files/Bluetooth-Headset_grande.jpg?v=1685792484",
+            "text": "Daisy Bunch",
+            "subText": "73.20"
+          },
+          {
+            "productId": "1005",
+            "productImage": "https://m.media-amazon.com/images/I/51VOI6vjw2L._AC_SX679_.jpg",
+            "text": "Bluetooth Mouse",
+            "subText": "9730.60"
+          },
+          {
+            "productId": "1004",
+            "productImage": "https://tecknet.com/cdn/shop/files/Bluetooth-Headset_grande.jpg?v=1685792484",
+            "text": "Headphone Bluetooth",
+            "subText": "9730.60"
+          },
+          {
+            "productId": "1001",
+            "productImage": "https://www.highsnobiety.com/static-assets/thumbor/f-gb_L-XdouCgjFtLd7B_d6jops=/1500x1000/whatdropsnow.s3.amazonaws.com/product_image/195752/shrine_image/886ce62a990da3a3944e062b42d47e95.jpg",
+            "text": "Men's Knitwear Shirt",
+            "subText": "99.90"
+          }
+        ]
+      }
+    ]
+  }
+}
