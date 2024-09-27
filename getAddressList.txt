@@ -1,0 +1,38 @@
+{
+  "message": "Logged in successfully.",
+  "status": 200,
+  "data": {
+    "productLimit": 4,
+    "totalCount": 4,
+    "listResponse": [
+      {
+        "addressId": "107657500",
+        "address": "https://m.media-amazon.com/images/I/71fiO3YqQwL._AC_SY695_.jpg",
+        "latitude": 14679.90,
+        "longitude": "304.45",
+        "addressType": "Home"
+      },
+      {
+        "addressId": "1001241244",
+        "address": "https://m.media-amazon.com/images/I/613ETE5JatL._AC_SL1500_.jpg",
+        "latitude": 14679.90,
+        "longitude": "9730.60",
+        "addressType": "Work"
+      },
+      {
+        "addressId": "35235325",
+        "address": "https://m.media-amazon.com/images/I/61bEwLtAx0L._AC_SL1000_.jpg",
+        "latitude": 99.90,
+        "longitude": "99.90",
+        "addressType": "Bgl Flat"
+      },
+      {
+        "addressId": "1002747",
+        "productImage": "https://m.media-amazon.com/images/I/416hJHFaGML._AC_.jpg",
+        "latitude": 14679.90,
+        "longitude": "14679.90",
+        "addressType": "Other"
+      }
+    ]
+  }
+}
