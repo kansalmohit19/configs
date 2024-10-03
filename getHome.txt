@@ -5,6 +5,7 @@
     "sections": [
       {
         "type": 0,
+        "sectionTitle": "Categories",
         "sectionData": [
           {
             "icon": "https://www.svgrepo.com/show/422275/clothes-clothing-garment.svg",
@@ -42,6 +43,7 @@
       },
       {
         "type": 1,
+        "sectionTitle": "Banners",
         "sectionData": [
           {
             "image": "https://img.freepik.com/free-psd/sales-discount-facebook-template_23-2149959351.jpg?w=2000&t=st=1691265826~exp=1691266426~hmac=f6e155cc1969aea6effca77ee77dd25e4876212705a9720199db4eee01ad417f",
