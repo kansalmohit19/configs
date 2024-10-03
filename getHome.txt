@@ -5,7 +5,8 @@
     "sections": [
       {
         "type": 0,
-        "sectionTitle": "Categories",
+        "reference": "Categories",
+        "sectionTitle": "",
         "sectionData": [
           {
             "icon": "https://www.svgrepo.com/show/422275/clothes-clothing-garment.svg",
@@ -43,7 +44,8 @@
       },
       {
         "type": 1,
-        "sectionTitle": "Banners",
+        "reference": "Banners",
+        "sectionTitle": "",
         "sectionData": [
           {
             "image": "https://img.freepik.com/free-psd/sales-discount-facebook-template_23-2149959351.jpg?w=2000&t=st=1691265826~exp=1691266426~hmac=f6e155cc1969aea6effca77ee77dd25e4876212705a9720199db4eee01ad417f",
@@ -65,7 +67,8 @@
       },
       {
         "type": 2,
-        "sectionTitle": "Slidable Products",
+        "reference": "Slidable_Products",
+        "sectionTitle": "Hot selling products",
         "sectionData": [
           {
             "productId": "1000",
@@ -117,7 +120,8 @@
       },
       {
         "type": 3,
-        "sectionTitle": "FlexBox Products",
+        "reference": "FlexBox_Products",
+        "sectionTitle": "",
         "sectionData": [
           {
             "productId": "1000",
@@ -183,7 +187,8 @@
       },
       {
         "type": 2,
-        "sectionTitle": "Slidable Products",
+        "reference": "Slidable_Products",
+        "sectionTitle": "Products under USD30",
         "sectionData": [
           {
             "productId": "1006",
@@ -235,7 +240,8 @@
       },
       {
         "type": 4,
-        "sectionTitle": "Vertical Products",
+        "reference": "Vertical_Products",
+        "sectionTitle": "Items in your wishlist",
         "sectionData": [
           {
             "productId": "1000",
