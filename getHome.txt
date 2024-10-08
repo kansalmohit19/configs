@@ -10,35 +10,35 @@
         "sectionData": [
           {
             "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/vegetable.png",
-            "text": "Vegetable"
+            "text": "Veggies"
           },
           {
-            "icon": "https://www.svgrepo.com/show/502436/food-and-drink.svg",
-            "text": "Food"
+            "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/fruits.png",
+            "text": "Fruits"
           },
           {
-            "icon": "https://www.svgrepo.com/show/400442/lipstick.svg",
-            "text": "Cosmetic"
+            "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/meet.png",
+            "text": "Meet & Seafood"
           },
           {
-            "icon": "https://www.svgrepo.com/show/227505/market-supermarket.svg",
-            "text": "Market"
+            "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/diary.png",
+            "text": "Dairy"
           },
           {
-            "icon": "https://www.svgrepo.com/show/425171/sport-automotive-helmet.svg",
-            "text": "Sport"
+            "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/vegetable.png",
+            "text": "Stationary"
           },
           {
-            "icon": "https://www.svgrepo.com/show/494436/news-news-release-to-promote.svg",
-            "text": "News"
+            "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/fruits.png",
+            "text": "Sports"
           },
           {
-            "icon": "https://www.svgrepo.com/show/530179/stock-movement.svg",
-            "text": "Stock Market"
+            "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/meet.png",
+            "text": "Grocery"
           },
           {
-            "icon": "https://www.svgrepo.com/show/343840/social-media-branding-advertising-promotion.svg",
-            "text": "Social Meda"
+            "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/diary.png",
+            "text": "Medicines"
           }
         ]
       },
