@@ -6,7 +6,7 @@
       {
         "type": 0,
         "reference": "Categories",
-        "sectionTitle": "",
+        "sectionTitle": "Categories",
         "sectionData": [
           {
             "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/vegetable.png",
