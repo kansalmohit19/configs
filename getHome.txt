@@ -9,7 +9,7 @@
         "sectionTitle": "",
         "sectionData": [
           {
-            "icon": "https://drive.google.com/file/d/1vfuAELIh-9xCYkKsVZh_1a4TCLHv0H7p/view?usp=sharing",
+            "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/vegetable.png",
             "text": "Vegetable"
           },
           {
