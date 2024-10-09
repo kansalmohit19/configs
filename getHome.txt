@@ -274,132 +274,17 @@
             "productImage": "https://m.media-amazon.com/images/I/51VOI6vjw2L._AC_SX679_.jpg",
             "text": "Bluetooth Mouse",
             "subText": "9730.60"
-          },
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "reference": "Banners",
+        "sectionTitle": "",
+        "sectionData": [
           {
-            "productId": "1004",
-            "productImage": "https://tecknet.com/cdn/shop/files/Bluetooth-Headset_grande.jpg?v=1685792484",
-            "text": "Headphone Bluetooth",
-            "subText": "9730.60"
-          },
-          {
-            "productId": "1003",
-            "productImage": "https://tecknet.com/cdn/shop/files/Bluetooth-Headset_grande.jpg?v=1685792484",
-            "text": "Daisy Bunch",
-            "subText": "73.20"
-          },
-          {
-            "productId": "1005",
-            "productImage": "https://m.media-amazon.com/images/I/51VOI6vjw2L._AC_SX679_.jpg",
-            "text": "Bluetooth Mouse",
-            "subText": "9730.60"
-          },
-          {
-            "productId": "1004",
-            "productImage": "https://tecknet.com/cdn/shop/files/Bluetooth-Headset_grande.jpg?v=1685792484",
-            "text": "Headphone Bluetooth",
-            "subText": "9730.60"
-          },
-          {
-            "productId": "1001",
-            "productImage": "https://www.highsnobiety.com/static-assets/thumbor/f-gb_L-XdouCgjFtLd7B_d6jops=/1500x1000/whatdropsnow.s3.amazonaws.com/product_image/195752/shrine_image/886ce62a990da3a3944e062b42d47e95.jpg",
-            "text": "Men's Knitwear Shirt",
-            "subText": "99.90"
-          },
-          {
-            "productId": "1002",
-            "productImage": "https://m.media-amazon.com/images/I/61GuSZ+C3kL._AC_UF894,1000_QL80_.jpg",
-            "text": "Phone 8 X.E",
-            "subText": "14679.90"
-          },
-          {
-            "productId": "1003",
-            "productImage": "https://tecknet.com/cdn/shop/files/Bluetooth-Headset_grande.jpg?v=1685792484",
-            "text": "Daisy Bunch",
-            "subText": "73.20"
-          },
-          {
-            "productId": "1005",
-            "productImage": "https://m.media-amazon.com/images/I/51VOI6vjw2L._AC_SX679_.jpg",
-            "text": "Bluetooth Mouse",
-            "subText": "9730.60"
-          },
-          {
-            "productId": "1004",
-            "productImage": "https://tecknet.com/cdn/shop/files/Bluetooth-Headset_grande.jpg?v=1685792484",
-            "text": "Headphone Bluetooth",
-            "subText": "9730.60"
-          },
-          {
-            "productId": "1003",
-            "productImage": "https://tecknet.com/cdn/shop/files/Bluetooth-Headset_grande.jpg?v=1685792484",
-            "text": "Daisy Bunch",
-            "subText": "73.20"
-          },
-          {
-            "productId": "1005",
-            "productImage": "https://m.media-amazon.com/images/I/51VOI6vjw2L._AC_SX679_.jpg",
-            "text": "Bluetooth Mouse",
-            "subText": "9730.60"
-          },
-          {
-            "productId": "1004",
-            "productImage": "https://tecknet.com/cdn/shop/files/Bluetooth-Headset_grande.jpg?v=1685792484",
-            "text": "Headphone Bluetooth",
-            "subText": "9730.60"
-          },
-          {
-            "productId": "1003",
-            "productImage": "https://tecknet.com/cdn/shop/files/Bluetooth-Headset_grande.jpg?v=1685792484",
-            "text": "Daisy Bunch",
-            "subText": "73.20"
-          },
-          {
-            "productId": "1005",
-            "productImage": "https://m.media-amazon.com/images/I/51VOI6vjw2L._AC_SX679_.jpg",
-            "text": "Bluetooth Mouse",
-            "subText": "9730.60"
-          },
-          {
-            "productId": "1004",
-            "productImage": "https://tecknet.com/cdn/shop/files/Bluetooth-Headset_grande.jpg?v=1685792484",
-            "text": "Headphone Bluetooth",
-            "subText": "9730.60"
-          },
-          {
-            "productId": "1003",
-            "productImage": "https://tecknet.com/cdn/shop/files/Bluetooth-Headset_grande.jpg?v=1685792484",
-            "text": "Daisy Bunch",
-            "subText": "73.20"
-          },
-          {
-            "productId": "1005",
-            "productImage": "https://m.media-amazon.com/images/I/51VOI6vjw2L._AC_SX679_.jpg",
-            "text": "Bluetooth Mouse",
-            "subText": "9730.60"
-          },
-          {
-            "productId": "1003",
-            "productImage": "https://tecknet.com/cdn/shop/files/Bluetooth-Headset_grande.jpg?v=1685792484",
-            "text": "Daisy Bunch",
-            "subText": "73.20"
-          },
-          {
-            "productId": "1005",
-            "productImage": "https://m.media-amazon.com/images/I/51VOI6vjw2L._AC_SX679_.jpg",
-            "text": "Bluetooth Mouse",
-            "subText": "9730.60"
-          },
-          {
-            "productId": "1004",
-            "productImage": "https://tecknet.com/cdn/shop/files/Bluetooth-Headset_grande.jpg?v=1685792484",
-            "text": "Headphone Bluetooth",
-            "subText": "9730.60"
-          },
-          {
-            "productId": "1001",
-            "productImage": "https://www.highsnobiety.com/static-assets/thumbor/f-gb_L-XdouCgjFtLd7B_d6jops=/1500x1000/whatdropsnow.s3.amazonaws.com/product_image/195752/shrine_image/886ce62a990da3a3944e062b42d47e95.jpg",
-            "text": "Men's Knitwear Shirt",
-            "subText": "99.90"
+            "image": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/banner_1.png",
+            "navigationData": "101"
           }
         ]
       }
