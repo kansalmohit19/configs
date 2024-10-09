@@ -72,49 +72,47 @@
         "sectionData": [
           {
             "productId": "1000",
-            "productImage": "https://m.media-amazon.com/images/I/71fiO3YqQwL._AC_SY695_.jpg",
-            "text": "Shoe",
-            "subText": "1200.40 ₺",
+            "productImage": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/product_1.png",
+            "text": "Banana",
+            "subText": "₹100",
             "review": "230 Comments",
             "questions": "13 Answer",
             "rating": "9.6",
-            "share": "Shoe Link"
+            "share": "Link"
           },
           {
             "productId": "1003",
-            "productImage": "https://m.media-amazon.com/images/I/61bEwLtAx0L._AC_SL1000_.jpg",
-            "text": "Watch",
-            "subText": "73.20 ₺"
+            "productImage": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/product_2.png",
+            "text": "Tomato",
+            "subText": "₹73.20"
           },
           {
             "productId": "1002",
-            "productImage": "https://m.media-amazon.com/images/I/61GuSZ+C3kL._AC_UF894,1000_QL80_.jpg",
-            "text": "Phone 8 X.E",
-            "subText": "1467.90 ₺"
-          },
-          {
-            "productId": "1001",
-            "productImage": "https://m.media-amazon.com/images/I/618cxEwcaEL._AC_SX679_.jpg",
-            "text": "Shirt",
-            "subText": "99.90 ₺"
-          },
-          {
-            "productId": "1005",
-            "productImage": "https://m.media-amazon.com/images/I/51VOI6vjw2L._AC_SX679_.jpg",
-            "text": "Bluetooth Mouse",
-            "subText": "930.60 ₺"
+            "productImage": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/product_3.png",
+            "text": "Strawberry Pulp",
+            "subText": "₹146.90"
           },
           {
             "productId": "1004",
-            "productImage": "https://tecknet.com/cdn/shop/files/Bluetooth-Headset_grande.jpg?v=1685792484",
-            "text": "Headphone Bluetooth",
-            "subText": "9730.60 ₺"
+            "productImage": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/product_1.png",
+            "text": "Banana",
+            "subText": "₹100",
+            "review": "230 Comments",
+            "questions": "13 Answer",
+            "rating": "9.6",
+            "share": "Link"
+          },
+          {
+            "productId": "1005",
+            "productImage": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/product_2.png",
+            "text": "Tomato",
+            "subText": "₹73.20"
           },
           {
             "productId": "1006",
-            "productImage": "https://m.media-amazon.com/images/I/71wKdxyeDUL._AC_SL1500_.jpg",
-            "text": "Controller",
-            "subText": "2330.00 ₺"
+            "productImage": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/product_3.png",
+            "text": "Strawberry Pulp",
+            "subText": "₹146.90"
           }
         ]
       },
