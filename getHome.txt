@@ -4,6 +4,29 @@
   "data": {
     "sections": [
       {
+        "type": 1,
+        "reference": "Banners",
+        "sectionTitle": "",
+        "sectionData": [
+          {
+            "image": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/banner_1.png",
+            "navigationData": "101"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/banner_2.png",
+            "navigationData": "102"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/banner_3.png",
+            "navigationData": "104"
+          },
+          {
+            "image": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/banner_4.png",
+            "navigationData": "103"
+          }
+        ]
+      },
+      {
         "type": 0,
         "reference": "Categories",
         "sectionTitle": "Categories",
@@ -39,29 +62,6 @@
           {
             "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/diary.png",
             "text": "Medicines"
-          }
-        ]
-      },
-      {
-        "type": 1,
-        "reference": "Banners",
-        "sectionTitle": "",
-        "sectionData": [
-          {
-            "image": "https://img.freepik.com/free-psd/sales-discount-facebook-template_23-2149959351.jpg?w=2000&t=st=1691265826~exp=1691266426~hmac=f6e155cc1969aea6effca77ee77dd25e4876212705a9720199db4eee01ad417f",
-            "navigationData": "101"
-          },
-          {
-            "image": "https://images.unsplash.com/photo-1627384113972-f4c0392fe5aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-            "navigationData": "102"
-          },
-          {
-            "image": "https://img.freepik.com/free-psd/banner-template-mega-sale_23-2148729530.jpg?w=1380&t=st=1691412680~exp=1691413280~hmac=824b2c6664161658b590bc5f48cbb51dcc59707bc6a7a58386846a0930cbcb8d",
-            "navigationData": "104"
-          },
-          {
-            "image": "https://images.unsplash.com/photo-1616781677825-3c8cfc2f79a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-            "navigationData": "103"
           }
         ]
       },
