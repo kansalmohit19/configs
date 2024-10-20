@@ -4,8 +4,8 @@
   "data": {
     "sections": [
       {
-        "type": 1,
-        "reference": "Banners",
+        "type": 0,
+        "reference": "BANNER_SCROLL",
         "sectionTitle": "",
         "sectionData": [
           {
@@ -27,8 +27,8 @@
         ]
       },
       {
-        "type": 0,
-        "reference": "Categories",
+        "type": 2,
+        "reference": "CATEGORIES_SLIDABLE",
         "sectionTitle": "Categories",
         "sectionData": [
           {
@@ -66,8 +66,47 @@
         ]
       },
       {
-        "type": 2,
-        "reference": "Slidable_Products",
+        "type": 3,
+        "reference": "CATEGORIES_GRID",
+        "sectionTitle": "Categories",
+        "sectionData": [
+          {
+            "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/vegetable.png",
+            "text": "Veggies"
+          },
+          {
+            "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/fruits.png",
+            "text": "Fruits"
+          },
+          {
+            "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/meet.png",
+            "text": "Meet & Seafood"
+          },
+          {
+            "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/diary.png",
+            "text": "Dairy"
+          },
+          {
+            "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/vegetable.png",
+            "text": "Stationary"
+          },
+          {
+            "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/fruits.png",
+            "text": "Sports"
+          },
+          {
+            "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/meet.png",
+            "text": "Grocery"
+          },
+          {
+            "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/diary.png",
+            "text": "Medicines"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "reference": "PRODUCTS_SLIDABLE",
         "sectionTitle": "Hot selling products",
         "sectionData": [
           {
@@ -117,8 +156,8 @@
         ]
       },
       {
-        "type": 3,
-        "reference": "FlexBox_Products",
+        "type": 5,
+        "reference": "PRODUCTS_GRID",
         "sectionTitle": "",
         "sectionData": [
           {
@@ -184,102 +223,8 @@
         ]
       },
       {
-        "type": 2,
-        "reference": "Slidable_Products",
-        "sectionTitle": "Products under USD30",
-        "sectionData": [
-          {
-            "productId": "1006",
-            "productImage": "https://m.media-amazon.com/images/I/71wKdxyeDUL._AC_SL1500_.jpg",
-            "text": "Controller",
-            "subText": "2330.00 ₺"
-          },
-          {
-            "productId": "1002",
-            "productImage": "https://m.media-amazon.com/images/I/61GuSZ+C3kL._AC_UF894,1000_QL80_.jpg",
-            "text": "Phone 8 X.E",
-            "subText": "14679.90 ₺"
-          },
-          {
-            "productId": "1003",
-            "productImage": "https://m.media-amazon.com/images/I/61bEwLtAx0L._AC_SL1000_.jpg",
-            "text": "Watch",
-            "subText": "73.20 ₺"
-          },
-          {
-            "productId": "1001",
-            "productImage": "https://m.media-amazon.com/images/I/618cxEwcaEL._AC_SX679_.jpg",
-            "text": "Shirt",
-            "subText": "99.90 ₺"
-          },
-          {
-            "productId": "1005",
-            "productImage": "https://m.media-amazon.com/images/I/51VOI6vjw2L._AC_SX679_.jpg",
-            "text": "Bluetooth Mouse",
-            "subText": "9730.60 ₺"
-          },
-          {
-            "productId": "1000",
-            "productImage": "https://m.media-amazon.com/images/I/71fiO3YqQwL._AC_SY695_.jpg",
-            "text": "Shoe",
-            "subText": "1200.40 ₺",
-            "review": "230 Comments",
-            "questions": "13 Answer",
-            "rating": "9.6",
-            "share": "Shoe Link"
-          },
-          {
-            "productId": "1004",
-            "productImage": "https://tecknet.com/cdn/shop/files/Bluetooth-Headset_grande.jpg?v=1685792484",
-            "text": "Headphone Bluetooth",
-            "subText": "9730.60 ₺"
-          }
-        ]
-      },
-      {
-        "type": 4,
-        "reference": "Vertical_Products",
-        "sectionTitle": "Items in your wishlist",
-        "sectionData": [
-          {
-            "productId": "1000",
-            "productImage": "https://www.ollieandnic.com/cdn/shop/products/Macey-Sandals-Cream-2.jpg?v=1646840147&width=720",
-            "text": "Summer Sandals",
-            "subText": "304.45",
-            "review": "230 Comments",
-            "questions": "13 Answer",
-            "rating": "9.6",
-            "share": "Yazlık Sandalet Link"
-          },
-          {
-            "productId": "1001",
-            "productImage": "https://www.highsnobiety.com/static-assets/thumbor/f-gb_L-XdouCgjFtLd7B_d6jops=/1500x1000/whatdropsnow.s3.amazonaws.com/product_image/195752/shrine_image/886ce62a990da3a3944e062b42d47e95.jpg",
-            "text": "Men's Knitwear Shirt",
-            "subText": "99.90"
-          },
-          {
-            "productId": "1002",
-            "productImage": "https://m.media-amazon.com/images/I/61GuSZ+C3kL._AC_UF894,1000_QL80_.jpg",
-            "text": "Phone 8 X.E",
-            "subText": "14679.90"
-          },
-          {
-            "productId": "1003",
-            "productImage": "https://tecknet.com/cdn/shop/files/Bluetooth-Headset_grande.jpg?v=1685792484",
-            "text": "Daisy Bunch",
-            "subText": "73.20 ₺"
-          },
-          {
-            "productId": "1005",
-            "productImage": "https://m.media-amazon.com/images/I/51VOI6vjw2L._AC_SX679_.jpg",
-            "text": "Bluetooth Mouse",
-            "subText": "9730.60"
-          }
-        ]
-      },
-      {
         "type": 1,
-        "reference": "Banners",
+        "reference": "BANNER_STILL",
         "sectionTitle": "",
         "sectionData": [
           {
