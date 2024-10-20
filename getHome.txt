@@ -79,6 +79,10 @@
             "text": "Fruits"
           },
           {
+            "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/categories/category_7.png",
+            "text": "Personal Care"
+          },
+          {
             "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/meet.png",
             "text": "Meet & Seafood"
           },
@@ -87,16 +91,8 @@
             "text": "Dairy"
           },
           {
-            "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/vegetable.png",
-            "text": "Stationary"
-          },
-          {
-            "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/fruits.png",
-            "text": "Sports"
-          },
-          {
-            "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/meet.png",
-            "text": "Grocery"
+            "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/categories/category_7.png",
+            "text": "Household"
           }
         ]
       },
