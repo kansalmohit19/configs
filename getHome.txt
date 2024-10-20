@@ -103,7 +103,7 @@
       {
         "type": 4,
         "reference": "PRODUCTS_SLIDABLE",
-        "sectionTitle": "Hot selling products",
+        "sectionTitle": "Products Slidable",
         "sectionData": [
           {
             "productId": "1000",
@@ -154,13 +154,13 @@
       {
         "type": 5,
         "reference": "PRODUCTS_GRID",
-        "sectionTitle": "",
+        "sectionTitle": "Products Grid",
         "sectionData": [
           {
             "productId": "1000",
-            "productImage": "https://m.media-amazon.com/images/I/61cSDZpf36L._AC_SY625_.jpg",
-            "text": "Sandals",
-            "subText": "304.45 ₺",
+            "productImage": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/product_1.png",
+            "text": "Banana",
+            "subText": "₹100",
             "review": "230 Comments",
             "questions": "13 Answer",
             "rating": "9.6",
@@ -168,52 +168,52 @@
           },
           {
             "productId": "1006",
-            "productImage": "https://m.media-amazon.com/images/I/61mvgeTZMvL._AC_SL1500_.jpg",
-            "text": "Toy",
-            "subText": "19.00 ₺"
+            "productImage": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/product_2.png",
+            "text": "Tomato",
+            "subText": "₹73.20"
           },
           {
             "productId": "1009",
-            "productImage": "https://m.media-amazon.com/images/I/51i5DaalypL._AC_SL1000_.jpg",
-            "text": "Box",
-            "subText": "99.9 ₺"
+            "productImage": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/product_3.png",
+            "text": "Strawberry Pulp",
+            "subText": "₹146.90"
           },
           {
             "productId": "1010",
-            "productImage": "https://m.media-amazon.com/images/I/41v2o4UTwjL._AC_SL1009_.jpg",
+            "productImage": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/product_4.png",
             "text": "Pen",
             "subText": "9.20 ₺"
           },
           {
             "productId": "1008",
-            "productImage": "https://m.media-amazon.com/images/I/416hJHFaGML._AC_.jpg",
-            "text": "Bag",
-            "subText": "9.30 ₺"
+            "productImage": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/product_1.png",
+            "text": "Banana",
+            "subText": "₹100"
           },
           {
             "productId": "1003",
-            "productImage": "https://m.media-amazon.com/images/I/51VB+CisjDS._AC_SL1003_.jpg",
-            "text": "Bunch",
-            "subText": "33.20 ₺"
+            "productImage": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/product_2.png",
+            "text": "Tomato",
+            "subText": "₹73.20"
           },
           {
             "productId": "1007",
-            "productImage": "https://m.media-amazon.com/images/I/81vUb4A7hWL._AC_SL1500_.jpg",
-            "text": "Cat Food",
-            "subText": "30.60 ₺"
+            "productImage": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/product_3.png",
+            "text": "Strawberry Pulp",
+            "subText": "₹146.90"
           },
           {
             "productId": "1005",
-            "productImage": "https://m.media-amazon.com/images/I/51VOI6vjw2L._AC_SX679_.jpg",
+            "productImage": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/product_4.png",
             "text": "Bluetooth Mouse",
             "subText": "973.60 ₺",
             "piece": "only 2 in stock"
           },
           {
             "productId": "1002",
-            "productImage": "https://m.media-amazon.com/images/I/61GuSZ+C3kL._AC_UF894,1000_QL80_.jpg",
-            "text": "Phone 8 X.E",
-            "subText": "14679.90 ₺",
+            "productImage": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/product_1.png",
+            "text": "Banana",
+            "subText": "₹100",
             "soldOutText": "Sold Out"
           }
         ]
