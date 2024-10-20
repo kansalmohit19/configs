@@ -29,7 +29,7 @@
       {
         "type": 2,
         "reference": "CATEGORIES_SLIDABLE",
-        "sectionTitle": "Categories",
+        "sectionTitle": "Categories Slidable",
         "sectionData": [
           {
             "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/vegetable.png",
@@ -68,7 +68,7 @@
       {
         "type": 3,
         "reference": "CATEGORIES_GRID",
-        "sectionTitle": "Categories",
+        "sectionTitle": "Categories Grid",
         "sectionData": [
           {
             "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/vegetable.png",
@@ -97,10 +97,6 @@
           {
             "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/meet.png",
             "text": "Grocery"
-          },
-          {
-            "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/diary.png",
-            "text": "Medicines"
           }
         ]
       },
