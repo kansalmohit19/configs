@@ -104,8 +104,12 @@
           {
             "productId": "1000",
             "productImage": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/product_1.png",
-            "text": "Banana",
-            "subText": "₹100",
+            "productName": "Banana",
+            "marketPrice": "₹100",
+            "salePrice": "₹90",
+            "discountAvailable": true,
+            "offerText": "10% Off",
+            "quantity": "1 Kg",
             "review": "230 Comments",
             "questions": "13 Answer",
             "rating": "9.6",
@@ -114,20 +118,31 @@
           {
             "productId": "1003",
             "productImage": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/product_2.png",
-            "text": "Tomato",
-            "subText": "₹73.20"
+            "productName": "Tomato",
+            "marketPrice": "₹73.20",
+            "salePrice": "₹73.20",
+            "discountAvailable": false,
+            "quantity": "500 gm"
           },
           {
             "productId": "1002",
             "productImage": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/product_3.png",
-            "text": "Strawberry Pulp",
-            "subText": "₹146.90"
+            "productName": "Strawberry Pulp",
+            "marketPrice": "₹146.50",
+            "salePrice": "₹96.50",
+            "discountAvailable": true,
+            "offerText": "Flat ₹50 off",
+            "quantity": "1 piece"
           },
           {
             "productId": "1004",
             "productImage": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/product_1.png",
-            "text": "Banana",
-            "subText": "₹100",
+            "productName": "Banana",
+            "marketPrice": "₹100",
+            "salePrice": "₹90",
+            "discountAvailable": true,
+            "offerText": "10% Off",
+            "quantity": "1 Kg",
             "review": "230 Comments",
             "questions": "13 Answer",
             "rating": "9.6",
@@ -136,14 +151,21 @@
           {
             "productId": "1005",
             "productImage": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/product_2.png",
-            "text": "Tomato",
-            "subText": "₹73.20"
+            "productName": "Tomato",
+            "marketPrice": "₹73.20",
+            "salePrice": "₹73.20",
+            "discountAvailable": false,
+            "quantity": "500 gm"
           },
           {
             "productId": "1006",
             "productImage": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/product_3.png",
-            "text": "Strawberry Pulp",
-            "subText": "₹146.90"
+            "productName": "Strawberry Pulp",
+            "marketPrice": "₹146.50",
+            "salePrice": "₹96.50",
+            "discountAvailable": true,
+            "offerText": "Flat ₹50 off",
+            "quantity": "1 piece"
           }
         ]
       },
@@ -155,62 +177,68 @@
           {
             "productId": "1000",
             "productImage": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/product_1.png",
-            "text": "Banana",
-            "subText": "₹100",
+            "productName": "Banana",
+            "marketPrice": "₹100",
+            "salePrice": "₹90",
+            "discountAvailable": true,
+            "offerText": "10% Off",
+            "quantity": "1 Kg",
             "review": "230 Comments",
             "questions": "13 Answer",
             "rating": "9.6",
-            "share": "Yazlık Sandalet Link"
-          },
-          {
-            "productId": "1006",
-            "productImage": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/product_2.png",
-            "text": "Tomato",
-            "subText": "₹73.20"
-          },
-          {
-            "productId": "1009",
-            "productImage": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/product_3.png",
-            "text": "Strawberry Pulp",
-            "subText": "₹146.90"
-          },
-          {
-            "productId": "1010",
-            "productImage": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/product_4.png",
-            "text": "Pen",
-            "subText": "9.20 ₺"
-          },
-          {
-            "productId": "1008",
-            "productImage": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/product_1.png",
-            "text": "Banana",
-            "subText": "₹100"
+            "share": "Link"
           },
           {
             "productId": "1003",
             "productImage": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/product_2.png",
-            "text": "Tomato",
-            "subText": "₹73.20"
-          },
-          {
-            "productId": "1007",
-            "productImage": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/product_3.png",
-            "text": "Strawberry Pulp",
-            "subText": "₹146.90"
-          },
-          {
-            "productId": "1005",
-            "productImage": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/product_4.png",
-            "text": "Bluetooth Mouse",
-            "subText": "973.60 ₺",
-            "piece": "only 2 in stock"
+            "productName": "Tomato",
+            "marketPrice": "₹73.20",
+            "salePrice": "₹73.20",
+            "discountAvailable": false,
+            "quantity": "500 gm"
           },
           {
             "productId": "1002",
+            "productImage": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/product_3.png",
+            "productName": "Strawberry Pulp",
+            "marketPrice": "₹146.50",
+            "salePrice": "₹96.50",
+            "discountAvailable": true,
+            "offerText": "Flat ₹50 off",
+            "quantity": "1 piece"
+          },
+          {
+            "productId": "1004",
             "productImage": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/product_1.png",
-            "text": "Banana",
-            "subText": "₹100",
-            "soldOutText": "Sold Out"
+            "productName": "Banana",
+            "marketPrice": "₹100",
+            "salePrice": "₹90",
+            "discountAvailable": true,
+            "offerText": "10% Off",
+            "quantity": "1 Kg",
+            "review": "230 Comments",
+            "questions": "13 Answer",
+            "rating": "9.6",
+            "share": "Link"
+          },
+          {
+            "productId": "1005",
+            "productImage": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/product_2.png",
+            "productName": "Tomato",
+            "marketPrice": "₹73.20",
+            "salePrice": "₹73.20",
+            "discountAvailable": false,
+            "quantity": "500 gm"
+          },
+          {
+            "productId": "1006",
+            "productImage": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/product_3.png",
+            "productName": "Strawberry Pulp",
+            "marketPrice": "₹146.50",
+            "salePrice": "₹96.50",
+            "discountAvailable": true,
+            "offerText": "Flat ₹50 off",
+            "quantity": "1 piece"
           }
         ]
       },
