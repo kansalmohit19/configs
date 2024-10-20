@@ -40,6 +40,10 @@
             "text": "Fruits"
           },
           {
+            "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/categories/category_7.png",
+            "text": "Personal Care"
+          },
+          {
             "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/meet.png",
             "text": "Meet & Seafood"
           },
@@ -48,20 +52,16 @@
             "text": "Dairy"
           },
           {
-            "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/categories/category_8.png",
+            "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/categories/category_7.png",
             "text": "Household"
+          },
+          {
+            "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/vegetable.png",
+            "text": "Veggies"
           },
           {
             "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/fruits.png",
-            "text": "Sports"
-          },
-          {
-            "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/categories/category_7.png",
-            "text": "Personal Care"
-          },
-          {
-            "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/categories/category_8.png",
-            "text": "Household"
+            "text": "Fruits"
           }
         ]
       },
