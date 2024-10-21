@@ -60,7 +60,7 @@
       {
         "type": 5,
         "reference": "PRODUCTS_GRID",
-        "sectionTitle": "Products Grid",
+        "sectionTitle": "Popular Products 1",
         "sectionData": [
           {
             "productId": "1000",
@@ -138,6 +138,79 @@
           {
             "image": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/banner_1.png",
             "navigationData": "101"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "reference": "PRODUCTS_GRID",
+        "sectionTitle": "Popular Products 2",
+        "sectionData": [
+          {
+            "productId": "1000",
+            "productImage": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/product_1.png",
+            "productName": "Banana",
+            "marketPrice": "₹100",
+            "salePrice": "₹90",
+            "discountAvailable": true,
+            "offerText": "10% Off",
+            "quantity": "1 Kg",
+            "review": "230 Comments",
+            "questions": "13 Answer",
+            "rating": "9.6",
+            "share": "Link"
+          },
+          {
+            "productId": "1003",
+            "productImage": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/product_2.png",
+            "productName": "Tomato",
+            "marketPrice": "₹73.20",
+            "salePrice": "₹73.20",
+            "discountAvailable": false,
+            "quantity": "500 gm"
+          },
+          {
+            "productId": "1002",
+            "productImage": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/product_3.png",
+            "productName": "Strawberry Pulp",
+            "marketPrice": "₹146.50",
+            "salePrice": "₹96.50",
+            "discountAvailable": true,
+            "offerText": "Flat ₹50 off",
+            "quantity": "1 piece"
+          },
+          {
+            "productId": "1004",
+            "productImage": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/product_1.png",
+            "productName": "Banana",
+            "marketPrice": "₹100",
+            "salePrice": "₹90",
+            "discountAvailable": true,
+            "offerText": "10% Off",
+            "quantity": "1 Kg",
+            "review": "230 Comments",
+            "questions": "13 Answer",
+            "rating": "9.6",
+            "share": "Link"
+          },
+          {
+            "productId": "1005",
+            "productImage": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/product_2.png",
+            "productName": "Tomato",
+            "marketPrice": "₹73.20",
+            "salePrice": "₹73.20",
+            "discountAvailable": false,
+            "quantity": "500 gm"
+          },
+          {
+            "productId": "1006",
+            "productImage": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/product_3.png",
+            "productName": "Strawberry Pulp",
+            "marketPrice": "₹146.50",
+            "salePrice": "₹96.50",
+            "discountAvailable": true,
+            "offerText": "Flat ₹50 off",
+            "quantity": "1 piece"
           }
         ]
       }
