@@ -9,19 +9,19 @@
         "sectionTitle": "",
         "sectionData": [
           {
-            "image": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "image": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/banner_1.png",
             "navigationData": "101"
           },
           {
-            "image": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "image": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/banner_2.png",
             "navigationData": "102"
           },
           {
-            "image": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "image": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/banner_3.png",
             "navigationData": "104"
           },
           {
-            "image": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "image": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/banner_4.png",
             "navigationData": "103"
           }
         ]
@@ -32,27 +32,27 @@
         "sectionTitle": "Categories Grid",
         "sectionData": [
           {
-            "icon": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/vegetable.png",
             "text": "Veggies"
           },
           {
-            "icon": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/fruits.png",
             "text": "Fruits"
           },
           {
-            "icon": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/categories/category_7.png",
             "text": "Personal Care"
           },
           {
-            "icon": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/meet.png",
             "text": "Meet & Seafood"
           },
           {
-            "icon": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/diary.png",
             "text": "Dairy"
           },
           {
-            "icon": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "icon": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/categories/category_7.png",
             "text": "Household"
           }
         ]
