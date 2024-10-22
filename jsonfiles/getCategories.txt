@@ -1,0 +1,62 @@
+{
+  "message": "Data success",
+  "status": 200,
+  "data": {
+    "sections": [
+      {
+        "type": 0,
+        "reference": "BANNER_SCROLL",
+        "sectionTitle": "",
+        "sectionData": [
+          {
+            "image": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "navigationData": "101"
+          },
+          {
+            "image": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "navigationData": "102"
+          },
+          {
+            "image": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "navigationData": "104"
+          },
+          {
+            "image": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "navigationData": "103"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "reference": "CATEGORIES_GRID",
+        "sectionTitle": "Categories Grid",
+        "sectionData": [
+          {
+            "icon": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "text": "Veggies"
+          },
+          {
+            "icon": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "text": "Fruits"
+          },
+          {
+            "icon": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "text": "Personal Care"
+          },
+          {
+            "icon": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "text": "Meet & Seafood"
+          },
+          {
+            "icon": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "text": "Dairy"
+          },
+          {
+            "icon": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "text": "Household"
+          }
+        ]
+      }
+    ]
+  }
+}
