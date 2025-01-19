@@ -1,0 +1,285 @@
+{
+  "message": "Data success",
+  "status": 200,
+  "data": {
+    "cart_item_count":2,
+    "sections": [
+      {
+        "type": 1,
+        "reference": "BANNER_SCROLL",
+        "sectionTitle": "",
+        "sectionData": [
+          {
+            "app_banner_image": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "banner_id": "101"
+          },
+          {
+            "app_banner_image": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "banner_id": "102"
+          },
+          {
+            "app_banner_image": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "banner_id": "104"
+          },
+          {
+            "app_banner_image": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "banner_id": "103"
+          }
+        ]
+      },{
+        "type": 1,
+        "reference": "BANNER_STILL",
+        "sectionTitle": "",
+        "sectionData": [
+          {
+            "app_banner_image": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "banner_id": "101"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "reference": "CATEGORIES_SLIDABLE",
+        "sectionTitle": "Categories Grid",
+        "sectionData": [
+          {
+            "category_id":"1",
+            "category_name":"1",
+            "category_image": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "thumb_url": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing"
+          },
+          {
+            "category_id":"1",
+            "category_name":"1",
+            "category_image": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "thumb_url": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing"
+          },
+          {
+            "category_id":"1",
+            "category_name":"1",
+            "category_image": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "thumb_url": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing"
+          },
+          {
+            "category_id":"1",
+            "category_name":"1",
+            "category_image": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "thumb_url": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing"
+          },
+          {
+            "category_id":"1",
+            "category_name":"1",
+            "category_image": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "thumb_url": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "reference": "CATEGORIES_GRID",
+        "sectionTitle": "Categories Grid",
+        "sectionData": [
+          {
+            "category_id":"1",
+            "category_name":"1",
+            "category_image": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "thumb_url": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing"
+          },
+          {
+            "category_id":"1",
+            "category_name":"1",
+            "category_image": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "thumb_url": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing"
+          },
+          {
+            "category_id":"1",
+            "category_name":"1",
+            "category_image": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "thumb_url": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing"
+          },
+          {
+            "category_id":"1",
+            "category_name":"1",
+            "category_image": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "thumb_url": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing"
+          },
+          {
+            "category_id":"1",
+            "category_name":"1",
+            "category_image": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "thumb_url": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "reference": "PRODUCTS_GRID",
+        "sectionTitle": "Popular Products 1",
+        "sectionData": [
+          {
+            "product_id": "1000",
+            "name": "Banana",
+            "price": "100",
+            "discounted_price": "90",
+            "quantity": "1",
+            "is_oos": 0,
+            "measuring_unit": "Kg",
+            "image_url": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            
+            "discount_percentage": "5",
+            "brand_name": "Brand name",
+            "pack_size": "2 units",
+            "review": "230 Comments",
+            "questions": "13 Answer",
+            "rating": "9.6",
+            "share": "Link"
+          },
+          {
+            "product_id": "1000",
+            "name": "Banana",
+            "price": "100",
+            "discounted_price": "90",
+            "quantity": "1",
+            "is_oos": 0,
+            "measuring_unit": "Kg",
+            "image_url": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            
+            "discount_percentage": "5",
+            "brand_name": "Brand name",
+            "pack_size": "2 units",
+            "review": "230 Comments",
+            "questions": "13 Answer",
+            "rating": "9.6",
+            "share": "Link"
+          },
+          {
+            "product_id": "1000",
+            "name": "Banana",
+            "price": "100",
+            "discounted_price": "90",
+            "quantity": "1",
+            "is_oos": 0,
+            "measuring_unit": "Kg",
+            "image_url": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            
+            "discount_percentage": "5",
+            "brand_name": "Brand name",
+            "pack_size": "2 units",
+            "review": "230 Comments",
+            "questions": "13 Answer",
+            "rating": "9.6",
+            "share": "Link"
+          },
+          {
+            "product_id": "1000",
+            "name": "Banana",
+            "price": "100",
+            "discounted_price": "90",
+            "quantity": "1",
+            "is_oos": 0,
+            "measuring_unit": "Kg",
+            "image_url": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            
+            "discount_percentage": "5",
+            "brand_name": "Brand name",
+            "pack_size": "2 units",
+            "review": "230 Comments",
+            "questions": "13 Answer",
+            "rating": "9.6",
+            "share": "Link"
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "reference": "BANNER_STILL",
+        "sectionTitle": "",
+        "sectionData": [
+          {
+            "app_banner_image": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "banner_id": "101"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "reference": "PRODUCTS_GRID",
+        "sectionTitle": "Popular Products 2",
+        "sectionData": [
+          {
+            "product_id": "1000",
+            "name": "Banana",
+            "price": "100",
+            "discounted_price": "90",
+            "quantity": "1",
+            "is_oos": 0,
+            "measuring_unit": "Kg",
+            "image_url": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            
+            "discount_percentage": "5",
+            "brand_name": "Brand name",
+            "pack_size": "2 units",
+            "review": "230 Comments",
+            "questions": "13 Answer",
+            "rating": "9.6",
+            "share": "Link"
+          },
+          {
+            "product_id": "1000",
+            "name": "Banana",
+            "price": "100",
+            "discounted_price": "90",
+            "quantity": "1",
+            "is_oos": 0,
+            "measuring_unit": "Kg",
+            "image_url": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            
+            "discount_percentage": "5",
+            "brand_name": "Brand name",
+            "pack_size": "2 units",
+            "review": "230 Comments",
+            "questions": "13 Answer",
+            "rating": "9.6",
+            "share": "Link"
+          },
+          {
+            "product_id": "1000",
+            "name": "Banana",
+            "price": "100",
+            "discounted_price": "90",
+            "quantity": "1",
+            "is_oos": 0,
+            "measuring_unit": "Kg",
+            "image_url": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            
+            "discount_percentage": "5",
+            "brand_name": "Brand name",
+            "pack_size": "2 units",
+            "review": "230 Comments",
+            "questions": "13 Answer",
+            "rating": "9.6",
+            "share": "Link"
+          },
+          {
+            "product_id": "1000",
+            "name": "Banana",
+            "price": "100",
+            "discounted_price": "90",
+            "quantity": "1",
+            "is_oos": 0,
+            "measuring_unit": "Kg",
+            "image_url": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            
+            "discount_percentage": "5",
+            "brand_name": "Brand name",
+            "pack_size": "2 units",
+            "review": "230 Comments",
+            "questions": "13 Answer",
+            "rating": "9.6",
+            "share": "Link"
+          }
+        ]
+      }
+    ]
+  }
+}
