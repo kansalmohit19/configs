@@ -1,0 +1,279 @@
+{
+  "message": "Data success",
+  "status": 200,
+  "data": {
+    "cart_item_count": 2,
+    "sections": [
+      {
+        "type": 1,
+        "reference": "BANNER_SCROLL",
+        "sectionTitle": "",
+        "sectionData": [
+          {
+            "app_banner_image": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/banner/banner_1.png",
+            "banner_id": "101"
+          },
+          {
+            "app_banner_image": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/banner/banner_2.png",
+            "banner_id": "102"
+          },
+          {
+            "app_banner_image": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/banner/banner_3.png",
+            "banner_id": "104"
+          },
+          {
+            "app_banner_image": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/banner/banner_4.png",
+            "banner_id": "103"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "reference": "CATEGORIES_SLIDABLE",
+        "sectionTitle": "Categories Grid",
+        "sectionData": [
+          {
+            "category_id": "1",
+            "category_name": "Bakery",
+            "category_image": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/categories/cat_bakery.png",
+            "thumb_url": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/categories/cat_bakery.png"
+          },
+          {
+            "category_id": "2",
+            "category_name": "Diary",
+            "category_image": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/categories/cat_diary.png",
+            "thumb_url": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/categories/cat_diary.png"
+          },
+          {
+            "category_id": "3",
+            "category_name": "Drinks",
+            "category_image": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/categories/cat_drinks.png",
+            "thumb_url": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/categories/cat_drinks.png"
+          },
+          {
+            "category_id": "4",
+            "category_name": "Fruits",
+            "category_image": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/categories/cat_fruits.png",
+            "thumb_url": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/categories/cat_fruits.png"
+          },
+          {
+            "category_id": "5",
+            "category_name": "Seafood",
+            "category_image": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/categories/cat_seafood.png",
+            "thumb_url": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/categories/cat_seafood.png"
+          },
+          {
+            "category_id": "5",
+            "category_name": "Vegetables",
+            "category_image": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/categories/cat_vegetable.png",
+            "thumb_url": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/categories/cat_vegetable.png"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "reference": "PRODUCTS_GRID",
+        "sectionTitle": "GRID Products",
+        "sectionData": [
+          {
+            "product_id": "1",
+            "name": "Milk",
+            "price": "24",
+            "discounted_price": "24",
+            "quantity": "1",
+            "is_oos": 0,
+            "measuring_unit": "ml",
+            "image_url": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/prod_milk.png",
+            "discount_percentage": "5",
+            "brand_name": "Amul",
+            "pack_size": "500",
+            "review": "230 Comments",
+            "questions": "13 Answer",
+            "rating": "9.6",
+            "share": "Link"
+          },
+          {
+            "product_id": "2",
+            "name": "Tomato",
+            "price": "30",
+            "discounted_price": "30",
+            "quantity": "1",
+            "is_oos": 0,
+            "measuring_unit": "Kg",
+            "image_url": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/products/prod_tomato.png",
+            "discount_percentage": "5",
+            "brand_name": "Organic",
+            "pack_size": "1",
+            "review": "230 Comments",
+            "questions": "13 Answer",
+            "rating": "9.6",
+            "share": "Link"
+          },
+          {
+            "product_id": "1000",
+            "name": "Banana",
+            "price": "100",
+            "discounted_price": "90",
+            "quantity": "1",
+            "is_oos": 0,
+            "measuring_unit": "Kg",
+            "image_url": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "discount_percentage": "5",
+            "brand_name": "Brand name",
+            "pack_size": "2 units",
+            "review": "230 Comments",
+            "questions": "13 Answer",
+            "rating": "9.6",
+            "share": "Link"
+          },
+          {
+            "product_id": "1000",
+            "name": "Banana",
+            "price": "100",
+            "discounted_price": "90",
+            "quantity": "1",
+            "is_oos": 0,
+            "measuring_unit": "Kg",
+            "image_url": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "discount_percentage": "5",
+            "brand_name": "Brand name",
+            "pack_size": "2 units",
+            "review": "230 Comments",
+            "questions": "13 Answer",
+            "rating": "9.6",
+            "share": "Link"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "reference": "CATEGORIES_GRID",
+        "sectionTitle": "Categories Grid",
+        "sectionData": [
+          {
+            "category_id": "1",
+            "category_name": "Bakery",
+            "category_image": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/categories/cat_bakery.png",
+            "thumb_url": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/categories/cat_bakery.png"
+          },
+          {
+            "category_id": "2",
+            "category_name": "Diary",
+            "category_image": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/categories/cat_diary.png",
+            "thumb_url": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/categories/cat_diary.png"
+          },
+          {
+            "category_id": "3",
+            "category_name": "Drinks",
+            "category_image": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/categories/cat_drinks.png",
+            "thumb_url": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/categories/cat_drinks.png"
+          },
+          {
+            "category_id": "4",
+            "category_name": "Fruits",
+            "category_image": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/categories/cat_fruits.png",
+            "thumb_url": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/categories/cat_fruits.png"
+          },
+          {
+            "category_id": "5",
+            "category_name": "Seafood",
+            "category_image": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/categories/cat_seafood.png",
+            "thumb_url": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/categories/cat_seafood.png"
+          },
+          {
+            "category_id": "5",
+            "category_name": "Vegetables",
+            "category_image": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/categories/cat_vegetable.png",
+            "thumb_url": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/categories/cat_vegetable.png"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "reference": "BANNER_STILL",
+        "sectionTitle": "",
+        "sectionData": [
+          {
+            "app_banner_image": "https://raw.githubusercontent.com/kansalmohit19/JSONResponses/refs/heads/main/banner/banner_1.png",
+            "banner_id": "101"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "reference": "PRODUCTS_SLIDABLE",
+        "sectionTitle": "SLIDABLE Products",
+        "sectionData": [
+          {
+            "product_id": "1000",
+            "name": "Banana",
+            "price": "100",
+            "discounted_price": "90",
+            "quantity": "1",
+            "is_oos": 0,
+            "measuring_unit": "Kg",
+            "image_url": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "discount_percentage": "5",
+            "brand_name": "Brand name",
+            "pack_size": "2 units",
+            "review": "230 Comments",
+            "questions": "13 Answer",
+            "rating": "9.6",
+            "share": "Link"
+          },
+          {
+            "product_id": "1000",
+            "name": "Banana",
+            "price": "100",
+            "discounted_price": "90",
+            "quantity": "1",
+            "is_oos": 0,
+            "measuring_unit": "Kg",
+            "image_url": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "discount_percentage": "5",
+            "brand_name": "Brand name",
+            "pack_size": "2 units",
+            "review": "230 Comments",
+            "questions": "13 Answer",
+            "rating": "9.6",
+            "share": "Link"
+          },
+          {
+            "product_id": "1000",
+            "name": "Banana",
+            "price": "100",
+            "discounted_price": "90",
+            "quantity": "1",
+            "is_oos": 0,
+            "measuring_unit": "Kg",
+            "image_url": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "discount_percentage": "5",
+            "brand_name": "Brand name",
+            "pack_size": "2 units",
+            "review": "230 Comments",
+            "questions": "13 Answer",
+            "rating": "9.6",
+            "share": "Link"
+          },
+          {
+            "product_id": "1000",
+            "name": "Banana",
+            "price": "100",
+            "discounted_price": "90",
+            "quantity": "1",
+            "is_oos": 0,
+            "measuring_unit": "Kg",
+            "image_url": "https://drive.google.com/file/d/1059J-y0sS5hflLBk1WG7YMqrEOcgsBjg/view?usp=sharing",
+            "discount_percentage": "5",
+            "brand_name": "Brand name",
+            "pack_size": "2 units",
+            "review": "230 Comments",
+            "questions": "13 Answer",
+            "rating": "9.6",
+            "share": "Link"
+          }
+        ]
+      }
+    ]
+  }
+}
