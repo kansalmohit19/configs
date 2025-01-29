@@ -1,0 +1,27 @@
+{
+    "message": "Successful",
+    "status": 200,
+    "data": {
+        "result": [
+            {
+                "sub_category_id": 9385,
+                "sub_category_name": "Oats",
+                "sub_category_image": null,
+                "thumb_url": null
+            },
+            {
+                "sub_category_id": 9386,
+                "sub_category_name": "Cereals & Muesli",
+                "sub_category_image": null,
+                "thumb_url": null
+            },
+            {
+                "sub_category_id": 9387,
+                "sub_category_name": "Halawa",
+                "sub_category_image": null,
+                "thumb_url": null
+            }
+        ],
+        "count": 3
+    }
+}
