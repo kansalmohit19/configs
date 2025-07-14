@@ -1,4 +1,9 @@
-"facts": [
+{
+  "statusCode":200,
+  "message": "Success",
+  "data":{
+    "count":10,
+    "facts": [
   {
     "imageUrl": "https://placehold.co/600x400/orange/white?text=Honey+Never+Spoils",
     "title": "Honey Never Spoils",
@@ -70,3 +75,5 @@
     "postedOn": "2025-07-04"
   }
 ]
+  }
+}
