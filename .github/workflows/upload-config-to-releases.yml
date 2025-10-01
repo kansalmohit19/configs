@@ -33,7 +33,7 @@ jobs:
       - name: Copy login.json
         run: |
           mkdir -p sample
-          cp sample_1/login.json sample/login.json
+          cp sample/login.json sample/login.json
 
       # Commit and push changes
       - name: Commit & push
