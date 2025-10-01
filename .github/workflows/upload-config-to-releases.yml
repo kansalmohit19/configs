@@ -3,6 +3,10 @@ on:
   pull_request:
   workflow_dispatch:
 
+permissions:
+  contents: write   # <-- needed to create releases
+  packages: write   # <-- optional if using packages
+
 jobs:
   upload:
     runs-on: ubuntu-latest
