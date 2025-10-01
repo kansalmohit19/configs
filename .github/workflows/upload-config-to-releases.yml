@@ -46,8 +46,8 @@ jobs:
       # Commit and push changes
       - name: Commit & push
         run: |
-          git add fotd/app-config/v1.json
-          git add fotd/facts-list/v1.json
+          git add fotd/app-config/v2.json
+          git add fotd/facts-list/v2.json
           git commit -m "Update login.json from workflow" || echo "No changes to commit"
           git push origin release
         env:
