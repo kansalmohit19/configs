@@ -2,6 +2,6 @@
   "message": "Logged in successfully.",
   "status": 200,
   "data": {
-
+    "status": 200
   }
 }
