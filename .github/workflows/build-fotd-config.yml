@@ -41,6 +41,7 @@ jobs:
           FILE_NAME="$CURRENT_BRANCH"
           fi
 
+          FILE_NAME="${FILE_NAME//\//-}"
           echo "Using branch: $CURRENT_BRANCH"
           echo "File name/folder: $FILE_NAME"
 
