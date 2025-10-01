@@ -1,0 +1,79 @@
+{
+  "statusCode": 200,
+  "message": "Success",
+  "data": {
+    "count": 10,
+    "facts": [
+      {
+        "imageUrl": "https://placehold.co/2000x800/FAD7A0/white.png?text=Honey+Never+Spoils",
+        "title": "Honey Never Spoils",
+        "description": "Archaeologists found pots of honey in ancient Egyptian tombs over 3,000 years old—and it was still edible!",
+        "postedBy": "Alex Morgan",
+        "postedOn": "2025-07-10T00:00:00Z"
+      },
+      {
+        "imageUrl": "https://placehold.co/2000x800/A9DFBF/white.png?text=Wombats+Poop+Cubes",
+        "title": "Wombats Poop Cubes",
+        "description": "These Australian marsupials produce cube-shaped droppings—so they don’t roll away when marking territory!",
+        "postedBy": "Priya Singh",
+        "postedOn": "2025-07-12T00:00:00Z"
+      },
+      {
+        "imageUrl": "https://placehold.co/2000x800/D2B4DE/white.png?text=Sea+Otters+Hold+Hands",
+        "title": "Sea Otters Hold Hands",
+        "description": "To avoid drifting apart while sleeping, sea otters hold hands—and sometimes wrap themselves in kelp.",
+        "postedBy": "Rahul Verma",
+        "postedOn": "2025-06-30T00:00:00Z"
+      },
+      {
+        "imageUrl": "https://placehold.co/2000x800/AED6F1/white.png?text=Butterflies+Taste+with+Their+Feet",
+        "title": "Butterflies Taste with Their Feet",
+        "description": "Butterflies have taste sensors on their feet, allowing them to decide where to lay eggs just by landing.",
+        "postedBy": "Meera Patel",
+        "postedOn": "2025-07-01T00:00:00Z"
+      },
+      {
+        "imageUrl": "https://placehold.co/2000x800/FCF3CF/white.png?text=Clouds+Weigh+About+a+Million+Tonnes",
+        "title": "Clouds Weigh About a Million Tonnes",
+        "description": "A typical cumulus cloud can weigh around one million tonnes due to the water it contains.",
+        "postedBy": "Samir Rao",
+        "postedOn": "2025-07-05T00:00:00Z"
+      },
+      {
+        "imageUrl": "https://placehold.co/2000x800/F5CBA7/white.png?text=Australia+is+Wider+Than+the+Moon",
+        "title": "Australia is Wider Than the Moon",
+        "description": "Australia spans nearly 4,000 km east to west, while the Moon is about 3,400 km in diameter.",
+        "postedBy": "Nisha Krishnan",
+        "postedOn": "2025-07-08T00:00:00Z"
+      },
+      {
+        "imageUrl": "https://placehold.co/2000x800/D5F5E3/white.png?text=Identical+Twins+Don’t+Have+Same+Fingerprints",
+        "title": "Identical Twins Don’t Have Same Fingerprints",
+        "description": "Even identical twins have unique fingerprints, shaped by minor differences in womb conditions.",
+        "postedBy": "Arjun Gupta",
+        "postedOn": "2025-07-03T00:00:00Z"
+      },
+      {
+        "imageUrl": "https://placehold.co/2000x800/F9E79F/white.png?text=Eiffel+Tower+Grows+in+Summer",
+        "title": "Eiffel Tower Grows in Summer",
+        "description": "Due to thermal expansion, the iron in the Eiffel Tower can make it grow by about 6 in (15 cm) in the heat.",
+        "postedBy": "Kavya Sharma",
+        "postedOn": "2025-07-07T00:00:00Z"
+      },
+      {
+        "imageUrl": "https://placehold.co/2000x800/FADBD8/white.png?text=Teeth+Can’t+Heal+Themselves",
+        "title": "Teeth Can’t Heal Themselves",
+        "description": "Human teeth are the only body part covered in enamel, which can’t regenerate once damaged.",
+        "postedBy": "Vikram Joshi",
+        "postedOn": "2025-07-02T00:00:00Z"
+      },
+      {
+        "imageUrl": "https://placehold.co/2000x800/D6EAF8/white.png?text=The+Shortest+War+Lasted+38+Minutes",
+        "title": "The Shortest War Lasted 38 Minutes",
+        "description": "The Anglo‑Zanzibar War of 1896 holds the record for the shortest war in history.",
+        "postedBy": "Leena Thomas",
+        "postedOn": "2025-07-04T00:00:00Z"
+      }
+    ]
+  }
+}
