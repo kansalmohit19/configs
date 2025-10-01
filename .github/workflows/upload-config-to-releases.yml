@@ -1,24 +1,40 @@
-name: upload-config-files
+name: update-login-json
+
 on:
-  pull_request:
   workflow_dispatch:
 
-permissions:
-  contents: write   # <-- needed to create releases
-  packages: write   # <-- optional if using packages
-
 jobs:
-  upload:
+  push-json:
     runs-on: ubuntu-latest
     steps:
-      # Checkout current repo
+      # Checkout the repo
       - uses: actions/checkout@v4
-
-      # Upload file to release (creates release if missing)
-      - name: Upload login.json to release
-        uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ github.ref_name }}
-          files: sample/login.json
+          fetch-depth: 0  # needed for pushing branches
+
+      # Configure git user
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      # Create releases/latest branch if not exists
+      - name: Prepare releases/latest branch
+        run: |
+          git fetch origin releases/latest || git checkout --orphan releases/latest
+          git checkout -B releases/latest
+
+      # Copy the JSON file into the branch
+      - name: Copy login.json
+        run: |
+          mkdir -p sample
+          cp sample/login.json sample/login.json
+
+      # Commit and push
+      - name: Commit & push changes
+        run: |
+          git add sample/login.json
+          git commit -m "Update login.json from workflow" || echo "No changes to commit"
+          git push origin releases/latest --force
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
