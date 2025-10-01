@@ -29,25 +29,25 @@ jobs:
       # Switch to release branch (or create it)
       - name: Prepare release branch
         run: |
-          # Get current branch name
-          CURRENT_BRANCH="${GITHUB_REF##*/}"
-          echo "Current branch: $CURRENT_BRANCH"
-
-          # Determine folder/file name
+          # Determine the branch/folder name safely
           if [ -n "$GITHUB_HEAD_REF" ]; then
-            # It's a PR event
-            FILE_NAME="${GITHUB_REF#refs/pull/}"  # Extract PR number from ref
+          # PR event: source branch
+          CURRENT_BRANCH="$GITHUB_HEAD_REF"
+          FILE_NAME="${GITHUB_REF#refs/pull/}"   # PR number
           else
-            # Push or workflow_dispatch
-            FILE_NAME="$CURRENT_BRANCH"
+          # Push or workflow_dispatch
+          CURRENT_BRANCH="${GITHUB_REF##*/}"
+          FILE_NAME="$CURRENT_BRANCH"
           fi
-          echo "File name: $FILE_NAME"
 
-          # Fetch and checkout release branch (create if missing)
+          echo "Using branch: $CURRENT_BRANCH"
+          echo "File name/folder: $FILE_NAME"
+
+          # Fetch and checkout release branch
           git fetch origin release || echo "Release branch does not exist"
           git checkout release || git checkout -b release
-
-          # Copy files from the branch that triggered the workflow
+  
+          # Copy files from the source branch (CURRENT_BRANCH)
           git checkout "$CURRENT_BRANCH" -- fotd/app-config.json
           git checkout "$CURRENT_BRANCH" -- fotd/facts-list.json
 
