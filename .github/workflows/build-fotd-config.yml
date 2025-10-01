@@ -48,12 +48,13 @@ jobs:
           # Fetch and checkout release branch
           git fetch origin release || echo "Release branch does not exist"
           git checkout release || git checkout -b release
-  
+          
           # Copy files from the source branch (CURRENT_BRANCH)
           git checkout "$CURRENT_BRANCH" -- fotd/app-config.json
           git checkout "$CURRENT_BRANCH" -- fotd/facts-list.json
 
           # Create folders for new version
+          echo "Creating folders"
           mkdir -p fotd/app-config
           mkdir -p fotd/facts-list
           mv fotd/app-config.json fotd/app-config/$FILE_NAME.json
@@ -66,6 +67,7 @@ jobs:
           ls -l fotd/facts-list
 
           # Stage and commit
+          echo "Stage and commit"
           git add "fotd/app-config/$FILE_NAME.json"
           git add "fotd/facts-list/$FILE_NAME.json"
           git commit -m "Add versioned fotd JSON files" || echo "No changes to commit"
