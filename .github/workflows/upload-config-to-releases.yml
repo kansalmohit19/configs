@@ -6,32 +6,40 @@ on:
 permissions:
   contents: write
   packages: write
+
+
 jobs:
   push-json:
     runs-on: ubuntu-latest
     steps:
-      # Checkout the repo
+      # Checkout current branch
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # needed for pushing branches
+          fetch-depth: 0
 
-      # Configure git user
+      # Configure Git
       - name: Configure Git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      # Switch to release branch (create if missing)
-      - name: Prepare release branch
+      # Checkout release branch (create if missing)
+      - name: Checkout release branch
         run: |
-          git checkout --orphan release
-          git reset --hard
-          git clean -fdx
-          
+          git fetch origin release || echo "Release branch does not exist"
+          git checkout release || git checkout -b release
+
+      # Copy only the JSON file from current branch
+      - name: Copy login.json
+        run: |
           mkdir -p sample
-          cp sample/login.json sample/login.json  # copy your JSON
+          cp sample/login.json sample_1/login.json
+
+      # Commit and push changes
+      - name: Commit & push
+        run: |
           git add sample/login.json
-          git commit -m "Update login.json from workflow"
-          git push origin release --force
+          git commit -m "Update login.json from workflow" || echo "No changes to commit"
+          git push origin release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
