@@ -23,19 +23,27 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      # Checkout release branch (create if missing)
-      - name: Checkout release branch
+      # Switch to release branch (or create it)
+      - name: Prepare release branch
         run: |
           git fetch origin release || echo "Release branch does not exist"
           git checkout release || git checkout -b release
-          git rm -rf . 
+          
+          # Clean branch completely
+          git rm -rf .
           git clean -fdx
-          git checkout main -- sample/login.json
+          
+          # Now copy files and create folders
+          mkdir -p fotd/app-config
+          mkdir -p fotd/facts-list
+          cp fotd/app-config.json fotd/app-config/v1.json
+          cp fotd/facts-list.json fotd/facts-list/v1.json
 
       # Commit and push changes
       - name: Commit & push
         run: |
-          git add sample/login.json
+          git add fotd/app-config/v1.json
+          git add fotd/facts-list/v1.json
           git commit -m "Update login.json from workflow" || echo "No changes to commit"
           git push origin release
         env:
