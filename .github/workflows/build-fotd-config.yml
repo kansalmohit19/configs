@@ -43,7 +43,7 @@ jobs:
           else
           # Branch push or workflow_dispatch
           CURRENT_BRANCH="${GITHUB_REF##*/}"           # current branch name
-          FILE_NAME="$BRANCH_NAME"
+          FILE_NAME="CURRENT_BRANCH"
           fi
   
           # Sanitize FILE_NAME for branches (replace / with - and remove dots)
