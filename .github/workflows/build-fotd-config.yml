@@ -1,10 +1,6 @@
 name: build-fotd-config-files
 
 on:
-  push:
-    branches:
-      - "master"
-      - "releasegit chec/**"
   pull_request:
   workflow_dispatch:
 
@@ -30,25 +26,29 @@ jobs:
       # Switch to release branch (or create it)
       - name: Prepare release branch
         run: |
+          # Get current branch name
+          CURRENT_BRANCH="${GITHUB_REF##*/}"
+          echo "Current branch: $CURRENT_BRANCH"
+      
           # Fetch and checkout release branch (create if missing)
           git fetch origin release || echo "Release branch does not exist"
           git checkout release || git checkout -b release
 
           # Copy files from main branch
-          git checkout main -- fotd/app-config.json
-          git checkout main -- fotd/facts-list.json
+          git checkout "$CURRENT_BRANCH" -- fotd/app-config.json
+          git checkout "$CURRENT_BRANCH" -- fotd/facts-list.json
 
           # Create folders for new version
           mkdir -p fotd/app-config
           mkdir -p fotd/facts-list
-          mv fotd/app-config.json fotd/app-config/${{ github.ref_name }}.json
-          mv fotd/facts-list.json fotd/facts-list/${{ github.ref_name }}.json
+          mv fotd/app-config.json fotd/app-config/"$CURRENT_BRANCH".json
+          mv fotd/facts-list.json fotd/facts-list/"$CURRENT_BRANCH".json
 
       - name: Commit & push
         run: |
-          git add fotd/app-config/${{ github.ref_name }}.json
-          git add fotd/facts-list/${{ github.ref_name }}.json
-          git commit -m "Add ${{ github.ref_name }} of fotd JSON files" || echo "No changes to commit"
+          git add fotd/app-config/"$CURRENT_BRANCH".json
+          git add fotd/facts-list/"$CURRENT_BRANCH".json
+          git commit -m "Add "$CURRENT_BRANCH" of fotd JSON files" || echo "No changes to commit"
           git push origin release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
