@@ -28,6 +28,8 @@ jobs:
         run: |
           git fetch origin release || echo "Release branch does not exist"
           git checkout release || git checkout -b release
+          git rm -rf . 
+          git clean -fdx
 
       # Commit and push changes
       - name: Commit & push
