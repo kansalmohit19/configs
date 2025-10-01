@@ -36,14 +36,14 @@ jobs:
           # Create folders for new version
           mkdir -p fotd/app-config
           mkdir -p fotd/facts-list
-          mv fotd/app-config.json fotd/app-config/v3.json
-          mv fotd/facts-list.json fotd/facts-list/v3.json
+          mv fotd/app-config.json fotd/app-config/v4.json
+          mv fotd/facts-list.json fotd/facts-list/v4.json
 
       - name: Commit & push
         run: |
-          git add fotd/app-config/v3.json
-          git add fotd/facts-list/v3.json
-          git commit -m "Add v2 of fotd JSON files" || echo "No changes to commit"
+          git add fotd/app-config/v4.json
+          git add fotd/facts-list/v4.json
+          git commit -m "Add v3 of fotd JSON files" || echo "No changes to commit"
           git push origin release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
