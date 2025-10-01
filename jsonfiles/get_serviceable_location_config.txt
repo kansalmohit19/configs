@@ -1,5 +1,0 @@
-{
-    "message": "Successful",
-    "status": 200,
-    "data": {}
-}
