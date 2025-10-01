@@ -65,11 +65,11 @@ jobs:
           echo "Files in fotd/facts-list:"
           ls -l fotd/facts-list
 
-      - name: Commit & push
-        run: |
+          # Stage and commit
           git add "fotd/app-config/$FILE_NAME.json"
           git add "fotd/facts-list/$FILE_NAME.json"
           git commit -m "Add versioned fotd JSON files" || echo "No changes to commit"
           git push origin release
+
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
