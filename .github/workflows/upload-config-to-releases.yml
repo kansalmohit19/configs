@@ -30,6 +30,7 @@ jobs:
           git checkout release || git checkout -b release
           git rm -rf . 
           git clean -fdx
+          git checkout main -- sample/login.json
 
       # Commit and push changes
       - name: Commit & push
