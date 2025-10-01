@@ -1,6 +1,9 @@
 name: build-fotd-config-files
 
 on:
+  push:
+    branches:
+      - "master"
   pull_request:
   workflow_dispatch:
 
@@ -29,7 +32,7 @@ jobs:
           # Get current branch name
           CURRENT_BRANCH="${{ github.ref_name }}"
           echo "Current branch: $CURRENT_BRANCH"
-      
+          
           # Fetch and checkout release branch (create if missing)
           git fetch origin release || echo "Release branch does not exist"
           git checkout release || git checkout -b release
