@@ -40,8 +40,8 @@ jobs:
           # Now copy files and create folders
           mkdir -p fotd/app-config
           mkdir -p fotd/facts-list
-          mv fotd/app-config.json fotd/app-config/v1.json
-          mv fotd/facts-list.json fotd/facts-list/v1.json
+          mv fotd/app-config.json fotd/app-config/v2.json
+          mv fotd/facts-list.json fotd/facts-list/v2.json
 
       # Commit and push changes
       - name: Commit & push
