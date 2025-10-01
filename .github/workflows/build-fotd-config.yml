@@ -1,4 +1,4 @@
-name: update-login-json
+name: build-fotd-config-files
 
 on:
   workflow_dispatch:
@@ -6,7 +6,6 @@ on:
 permissions:
   contents: write
   packages: write
-
 
 jobs:
   push-json:
