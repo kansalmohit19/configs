@@ -26,29 +26,25 @@ jobs:
       # Switch to release branch (or create it)
       - name: Prepare release branch
         run: |
+          # Fetch and checkout release branch (create if missing)
           git fetch origin release || echo "Release branch does not exist"
           git checkout release || git checkout -b release
-          
-          # Clean branch completely
-          git rm -rf .
-          git clean -fdx
-          
+
           # Copy files from main branch
           git checkout main -- fotd/app-config.json
           git checkout main -- fotd/facts-list.json
-    
-          # Now copy files and create folders
+
+          # Create folders for new version
           mkdir -p fotd/app-config
           mkdir -p fotd/facts-list
-          mv fotd/app-config.json fotd/app-config/v2.json
-          mv fotd/facts-list.json fotd/facts-list/v2.json
+          mv fotd/app-config.json fotd/app-config/v3.json
+          mv fotd/facts-list.json fotd/facts-list/v3.json
 
-      # Commit and push changes
       - name: Commit & push
         run: |
-          git add fotd/app-config/v2.json
-          git add fotd/facts-list/v2.json
-          git commit -m "Update login.json from workflow" || echo "No changes to commit"
+          git add fotd/app-config/v3.json
+          git add fotd/facts-list/v3.json
+          git commit -m "Add v2 of fotd JSON files" || echo "No changes to commit"
           git push origin release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
