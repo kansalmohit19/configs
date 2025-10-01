@@ -29,9 +29,21 @@ jobs:
       # Switch to release branch (or create it)
       - name: Prepare release branch
         run: |
-          # Get current branch name
-          CURRENT_BRANCH="${{ github.ref_name }}"
+          CURRENT_BRANCH="${GITHUB_REF##*/}"
           echo "Current branch: $CURRENT_BRANCH"
+      
+          FILE_NAME=""
+          # Get current branch name
+          # Determine folder name
+          if [ -n "$GITHUB_HEAD_REF" ]; then
+          # It's a PR event
+          FILE_NAME="${GITHUB_REF##refs/pull/}"  # Extract PR number from ref
+          else
+          # Push or workflow_dispatch
+          FILE_NAME=CURRENT_BRANCH          # Branch name
+          fi
+          
+          echo "File name: FILE_NAME"
           
           # Fetch and checkout release branch (create if missing)
           git fetch origin release || echo "Release branch does not exist"
@@ -44,14 +56,14 @@ jobs:
           # Create folders for new version
           mkdir -p fotd/app-config
           mkdir -p fotd/facts-list
-          mv fotd/app-config.json fotd/app-config/"$CURRENT_BRANCH".json
-          mv fotd/facts-list.json fotd/facts-list/"$CURRENT_BRANCH".json
+          mv fotd/app-config.json fotd/app-config/"FILE_NAME".json
+          mv fotd/facts-list.json fotd/facts-list/"FILE_NAME".json
 
       - name: Commit & push
         run: |
-          git add fotd/app-config/"$CURRENT_BRANCH".json
-          git add fotd/facts-list/"$CURRENT_BRANCH".json
-          git commit -m "Add "$CURRENT_BRANCH" of fotd JSON files" || echo "No changes to commit"
+          git add fotd/app-config/"FILE_NAME".json
+          git add fotd/facts-list/"FILE_NAME".json
+          git commit -m "Add versioned fotd JSON files" || echo "No changes to commit"
           git push origin release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
