@@ -24,12 +24,6 @@ jobs:
           git fetch origin releases/latest || git checkout --orphan releases/latest
           git checkout -B releases/latest
 
-      # Copy the JSON file into the branch
-      - name: Copy login.json
-        run: |
-          mkdir -p sample
-          cp sample/login.json sample/login.json
-
       # Commit and push
       - name: Commit & push changes
         run: |
