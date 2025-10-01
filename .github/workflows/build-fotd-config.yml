@@ -27,9 +27,8 @@ jobs:
       - name: Prepare release branch
         run: |
           # Get current branch name
-          CURRENT_BRANCH="${GITHUB_REF##*/}"
-          CURRENT_BRANCH_2="${{ github.ref_name }}"
-          echo "Current branch: $CURRENT_BRANCH $CURRENT_BRANCH_2"
+          CURRENT_BRANCH="${{ github.ref_name }}"
+          echo "Current branch: $CURRENT_BRANCH"
       
           # Fetch and checkout release branch (create if missing)
           git fetch origin release || echo "Release branch does not exist"
