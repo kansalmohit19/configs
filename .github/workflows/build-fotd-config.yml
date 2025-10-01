@@ -36,13 +36,13 @@ jobs:
   
           if [ -n "$GITHUB_HEAD_REF" ]; then
           # It's a PR event
-          BRANCH_NAME="$GITHUB_HEAD_REF"            # source branch of the PR
+          CURRENT_BRANCH="$GITHUB_HEAD_REF"            # source branch of the PR
           PR_NUMBER="${GITHUB_REF#refs/pull/}"      # e.g., 4/merge
           PR_NUMBER="${PR_NUMBER%%/*}"              # extract just PR number
           FILE_NAME="pr-${PR_NUMBER}"
           else
           # Branch push or workflow_dispatch
-          BRANCH_NAME="${GITHUB_REF##*/}"           # current branch name
+          CURRENT_BRANCH="${GITHUB_REF##*/}"           # current branch name
           FILE_NAME="$BRANCH_NAME"
           fi
   
@@ -52,7 +52,7 @@ jobs:
           FILE_NAME="${FILE_NAME//./}"               # remove dots
           fi
 
-          echo "Source branch (BRANCH_NAME): $BRANCH_NAME"
+          echo "Source branch (CURRENT_BRANCH): CURRENT_BRANCH"
           echo "Sanitized file name (FILE_NAME): $FILE_NAME"
 
           # Fetch and checkout release branch
