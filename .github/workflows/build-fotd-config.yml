@@ -62,6 +62,7 @@ jobs:
           # Copy files from the source branch (CURRENT_BRANCH)
           git checkout "$CURRENT_BRANCH" -- fotd/app-config.json
           git checkout "$CURRENT_BRANCH" -- fotd/facts-list.json
+          git checkout "$CURRENT_BRANCH" -- fotd/login.json
 
           # Create folders for new version
           echo "Creating folders"
@@ -69,6 +70,7 @@ jobs:
           mkdir -p fotd/facts-list
           mv fotd/app-config.json fotd/app-config/$FILE_NAME.json
           mv fotd/facts-list.json fotd/facts-list/$FILE_NAME.json
+          mv fotd/login.json fotd/login/$FILE_NAME.json
 
           # Check if files exist
           echo "Files in fotd/app-config:"
@@ -80,6 +82,7 @@ jobs:
           echo "Stage and commit"
           git add "fotd/app-config/$FILE_NAME.json"
           git add "fotd/facts-list/$FILE_NAME.json"
+          git add "fotd/login/$FILE_NAME.json"
           git commit -m "Add versioned fotd JSON files" || echo "No changes to commit"
           git push origin release
 
