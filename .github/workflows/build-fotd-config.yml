@@ -68,6 +68,7 @@ jobs:
           echo "Creating folders"
           mkdir -p fotd/app-config
           mkdir -p fotd/facts-list
+          mkdir -p fotd/login
           mv fotd/app-config.json fotd/app-config/$FILE_NAME.json
           mv fotd/facts-list.json fotd/facts-list/$FILE_NAME.json
           mv fotd/login.json fotd/login/$FILE_NAME.json
