@@ -1,0 +1,35 @@
+{
+  "message": "Successfull",
+  "status": 200,
+  "data": {
+    "userInfo": {
+      "user_id": 15,
+      "access_token": "1dca5d0f526cbc9e28e5ddddf0aa8931",
+      "name": "Kale Jacke",
+      "email": "mohit1@yopmail.com",
+      "signup_from": 2,
+      "is_guest": 0,
+      "notification_enabled": 1,
+      "reward_points": 40,
+      "popularity": 0,
+      "timezone": 330,
+      "timezone_info": "libcore.util.ZoneInfo[mDstSavings=0,mUseDst=false,mDelegate=[id=\"Asia/Kolkata\",mRawOffset=19800000,mEarliestRawOffset=21208000,transitions=7]]",
+      "last_login": "2025-07-22T06:30:35.000Z",
+      "profile_image": "https://firebasestorage.googleapis.com/v0/b/fotd-60e29.appspot.com/o/userAvatars%2FAvatar_1.png?alt=media&token=74414203-43f9-4bc7-8a6c-0f5c258bf5b8",
+      "userFactCount": {
+        "total_count": 21,
+        "pending_count": 6,
+        "approved_count": 15,
+        "rejected_count": 0
+      },
+      "avatars": [
+        "https://firebasestorage.googleapis.com/v0/b/fotd-60e29.appspot.com/o/userAvatars%2FAvatar_1.png?alt=media&token=74414203-43f9-4bc7-8a6c-0f5c258bf5b8",
+        "https://firebasestorage.googleapis.com/v0/b/fotd-60e29.appspot.com/o/userAvatars%2FAvatar_2.png?alt=media&token=c79d4d91-6101-4500-8b20-d06cc1740dd8",
+        "https://firebasestorage.googleapis.com/v0/b/fotd-60e29.appspot.com/o/userAvatars%2FAvatar_3.png?alt=media&token=cd783f2e-3a04-4113-9b5b-fb83e86b6dbd",
+        "https://firebasestorage.googleapis.com/v0/b/fotd-60e29.appspot.com/o/userAvatars%2FAvatar_4.png?alt=media&token=f7a609fd-0eda-4126-9018-2fc295e48259",
+        "https://firebasestorage.googleapis.com/v0/b/fotd-60e29.appspot.com/o/userAvatars%2FAvatar_5.png?alt=media&token=a07301ed-df38-49b4-8245-3f6f0a9bc03b",
+        "https://firebasestorage.googleapis.com/v0/b/fotd-60e29.appspot.com/o/userAvatars%2FAvatar_6.png?alt=media&token=c88578e5-0225-4ccc-ab30-a301176a90c3"
+      ]
+    }
+  }
+}
