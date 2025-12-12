@@ -3,21 +3,20 @@
   "status": 200,
   "data": {
     "appUpdate": {
-      "is_force_update": false,
-      "is_manual_update": false,
-      "app_link": "https://play.google.com/store/apps/details?id=com.indemand.fotd&hl=en_US&gl=US",
-      "package_name": "com.indemand.fotd",
-      "hard_version": 167,
-      "soft_version": 167
+      "isForceUpdate": false,
+      "isManualUpdate": false,
+      "appLink": "https://play.google.com/store/apps/details?id=com.indemand.fotd&hl=en_US&gl=US",
+      "packageName": "com.indemand.fotd",
+      "hardVersion": 167,
+      "softVersion": 167
     },
     "token": {
       "accessToken": "1dca5d0f526cbc9e28e5ddddf0aa8931"
     },
-    "serial_no": 1,
-    "about_us_page": "https://bit.ly/3JWvdjk",
-    "insta_handle": "fact__of_the__day",
-    "ad_mob_enabled": 0,
-    "hippo_chat_enabled": 0,
-    "is_guest_flow_enabled": 1
+    "socialProfile": {
+      "instaHandle": "https://bit.ly/3JWvdjk",
+      "aboutUsUrl": "fact__of_the__day",
+      "privacyPolicyUrl": "fact__of_the__day"
+    }
   }
 }
