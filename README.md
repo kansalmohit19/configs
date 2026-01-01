@@ -1,1 +1,1 @@
-# JSONResponses
+# configs
