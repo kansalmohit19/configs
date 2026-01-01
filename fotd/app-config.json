@@ -1,1 +1,30 @@
-{"message":"Successfull","status":200,"data":{"appUpdate":{"isForceUpdate":false,"isManualUpdate":false,"appLink":"https://play.google.com/store/apps/details?id=com.indemand.fotd&hl=en_US&gl=US","packageName":"com.indemand.fotd","hardVersion":167,"softVersion":167,"softUpdateTitle":"update available","softUpdateMessage":"a new version of the app is available. would you like to update?","softUpdatePositiveButton":"yes","softUpdateNegativeButton":"later","hardUpdateTitle":"time to update!","hardUpdateMessage":"we have added a lot of new features for you. please, update it to the latest version.","hardUpdateButton":"update"},"token":{"accessToken":"1dca5d0f526cbc9e28e5ddddf0aa8931"},"socialProfile":{"instaHandle":"https://bit.ly/3JWvdjk","aboutUsUrl":"fact__of_the__day","privacyPolicyUrl":"fact__of_the__day"}}}
+{
+  "message": "Successfull",
+  "status": 200,
+  "data": {
+    "appUpdate": {
+      "isForceUpdate": false,
+      "isManualUpdate": false,
+      "appLink": "https://play.google.com/store/apps/details?id=com.indemand.fotd&hl=en_US&gl=US",
+      "packageName": "com.indemand.fotd",
+      "hardVersion": 167,
+      "softVersion": 167,
+      "softUpdateTitle": "update available",
+      "softUpdateMessage": "a new version of the app is available. would you like to update?",
+      "softUpdatePositiveButton": "yes",
+      "softUpdateNegativeButton": "later",
+      "hardUpdateTitle": "time to update!",
+      "hardUpdateMessage": "we have added a lot of new features for you. please, update it to the latest version.",
+      "hardUpdateButton": "update"
+    },
+    "token": {
+      "useToken": true,
+      "accessToken": "1dca5d0f526cbc9e28e5ddddf0aa8931"
+    },
+    "socialProfile": {
+      "instaHandle": "https://bit.ly/3JWvdjk",
+      "aboutUsUrl": "fact__of_the__day",
+      "privacyPolicyUrl": "fact__of_the__day"
+    }
+  }
+}
